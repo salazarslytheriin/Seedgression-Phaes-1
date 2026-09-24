@@ -1,0 +1,7 @@
+# Copy to .dev.vars for LOCAL Wrangler tests. Never put real secrets in public/.
+# Production secrets: npx wrangler secret put RESEND_API_KEY
+RESEND_API_KEY=""
+TURNSTILE_SECRET_KEY=""
+# Optional automation endpoint and its shared secret; leave both empty to disable.
+AUTOMATION_WEBHOOK_URL=""
+AUTOMATION_WEBHOOK_SECRET=""
