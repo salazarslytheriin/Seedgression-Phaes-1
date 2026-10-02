@@ -1,0 +1,10 @@
+name = "seedgression"
+main = "src/index.js"
+compatibility_date = "2026-10-02"
+
+# Static site lives in public/. Wrangler will not guess this.
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
